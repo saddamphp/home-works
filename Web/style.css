@@ -1,0 +1,68 @@
+
+.total{ 
+	margin: 0 auto; 
+	padding: 0px; 
+	background:#F4FEFF;
+	width: 1160px;
+	height: 600px; }
+	ul{
+		margin: 0px;
+		padding: 0px;
+		overflow:hidden;
+		background:#F4FEFF;}
+	ul li{
+		float: left;
+		list-style-type:none;
+		}
+ul li a:hover{
+	background: gray;
+}
+	ul li a{
+		color:black;
+		text-decoration:none;
+		padding: 16px 24px;
+		display: inline-block;
+	}
+	.content a:hover{ background: gray; }
+	.content a{ 
+		display:block;
+	 }
+	
+	 .content{ 
+	 	background:white; 
+	 	display: none;
+	 	position: absolute;
+	 	min-width: 200px;
+	 	box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.3);
+	 	 }
+	 .dropdown:hover .content{display: block;}
+	 /*----------left div  start ------------- */
+	 .left{ 
+	 	float: left;  
+	 	width: 500px;
+	 	height: 500px;
+	 	background: #E0FCFF; 
+	 	padding: 70px;
+
+
+	 	
+	 }
+	  /*----------left div  end ------------- */
+	  /*----------right div  start ------------- */
+	  .right{ float: right;
+	  	width: 500px;
+	 	height:500px;
+	 	background-image: url('Capture.PNG')
+	 
+	   }
+	   .btnget{ 
+	   	background-color: #FF5B29;
+	   	padding: 10px;
+	   	width: 120px;
+
+	   	 }
+	   	 button:hover{ 
+	   	 	background: #FF5B29; 
+	   	 	color: yellow;
+	   	 }
+	  /*----------right div  end ------------- */

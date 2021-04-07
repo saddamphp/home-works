@@ -1,0 +1,30 @@
+/* --------css start--------*/
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.student td, .student th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.student tr:nth-child(odd){background-color: #f2f2f2;}
+
+.student tr:hover {background-color: yellow; }
+
+.student th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:gray;
+  color: white;
+  border-radius:10px;
+}
+.student th:hover{background:#000;color: #fff; }
+.student td{
+color: green;
+}
+/* --------css end--------*/
